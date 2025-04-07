@@ -18,6 +18,12 @@ pip install -r requirements.txt
 
 ## Testing
 
+To install test modules run:
+
+```
+pip install -r requirements-test.txt
+```
+
 Testing is done by [Tox](https://tox.wiki). Run `tox` for all tests. Settings can be changed in tox.ini.
 
 Unit tests are run with [Pytest](https://docs.pytest.org). Test files live in tests/.
