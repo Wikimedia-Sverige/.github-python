@@ -2,6 +2,20 @@
 
 Defaults for Python repos by this org.
 
+## Requirements
+
+Python 3.12. May work with other versions, but not guaranteed.
+
+## Development
+
+It's recommended to do development with [Venv](https://docs.python.org/3/library/venv.html). To set up the environment run:
+
+```
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Testing
 
 Testing is done by [Tox](https://tox.wiki). Run `tox` for all tests. Settings can be changed in tox.ini.
